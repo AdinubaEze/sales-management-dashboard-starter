@@ -1,0 +1,39 @@
+:root{
+  --color-primary:blue;
+  --color-primary-accent:orange;
+  --color-white:#ffffff; 
+  --color-text:#111111;
+  --color-muted: #7d7d82;
+  --color-success:#33c648;
+  --color-danger:#fc605b;
+  --color-warning:#ffbb55;
+  --color-link:#2779fb;
+  --radius-1:5px;
+  --radius-2:0.8rem;
+  --radius-3:1.2rem;
+  --radius-4:2rem;
+  --radius-5:100%;
+  --transition:all 400ms ease;
+  --gray-border:1px solid rgba(125, 125, 130, 0.493);
+  --color-background-primary: #f1f1f1;
+  --color-background-secondary: #FFFFFF;
+  --color-background-variant: #e9e6e6;
+  --gradient-1:linear-gradient(to right, var(--color-primary) 0%, var(--color-primary-accent) 100%);
+  --gradient-2:linear-gradient(190deg,var(--color-primary) 0%,rgba(115,67,210,0.3) 100%);
+  --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+  --secondary-glow: linear-gradient(
+     to bottom right,
+     rgba(1, 65, 255, 0),
+     rgba(1, 65, 255, 0),
+     rgba(1, 65, 255, 0.3) 
+   );
+}
+
+[data-theme="dark"] {
+    --color-text:#FFFFFF;
+    --gray-border:1px solid rgba(89, 88, 88, 0.633);
+    --color-background-primary: #0A0A0C;
+    --color-background-secondary: #171719;
+    --color-background-variant: #1b1b1e;
+    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4) 0%, rgba(0, 0, 0,0.5));
+} 
